@@ -1,0 +1,11 @@
+# Basic configuration for the project finance MVP.
+
+database:
+  # Default SQLite DB; replace with Postgres/RDS URL for cloud deployments.
+  url: null   # if null, uses sqlite:///db/solriver_mvp.db
+
+model:
+  discount_rate: 0.08
+  tax_rate: 0.21
+  project_life_years: 25
+  opex_escalation: 0.02

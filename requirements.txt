@@ -1,0 +1,5 @@
+## 3️⃣ requirements.txt
+
+pandas
+numpy
+sqlalchemy
